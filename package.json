@@ -1,0 +1,27 @@
+{
+  "name": "birla-white-erp",
+  "version": "1.0.0",
+  "description": "Aditya Birla - Unit Birla White Sales & Distribution ERP System",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "build:frontend": "npm --prefix frontend run build",
+    "db:push": "npm --prefix backend run prisma:push",
+    "db:seed": "npm --prefix backend run prisma:seed"
+  },
+  "keywords": [
+    "aditya-birla",
+    "birla-white",
+    "ultratech-cement",
+    "sales-erp",
+    "react",
+    "vite",
+    "node",
+    "express",
+    "postgresql",
+    "prisma"
+  ],
+  "author": "Suraj (PZ7550) - UltraTech Cement Ltd.",
+  "license": "ISC"
+}
